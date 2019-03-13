@@ -22,6 +22,12 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8EC670822239061500B97109 /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6707F2239061500B97109 /* ViewControllerB.m */; };
+		8EC670832239061500B97109 /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC670812239061500B97109 /* ViewControllerA.m */; };
+		8EC67088223906DE00B97109 /* 考勤记录@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC67084223906DE00B97109 /* 考勤记录@2x.png */; };
+		8EC67089223906DE00B97109 /* 请假记录@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC67085223906DE00B97109 /* 请假记录@3x.png */; };
+		8EC6708A223906DE00B97109 /* 考勤记录@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC67086223906DE00B97109 /* 考勤记录@3x.png */; };
+		8EC6708B223906DE00B97109 /* 请假记录@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC67087223906DE00B97109 /* 请假记录@2x.png */; };
 		B76F069E00A27D00B8637F64 /* Pods_HYPopoverView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E928214A2A3E1E627002F4F4 /* Pods_HYPopoverView_Example.framework */; };
 		DC7D9B9D004BEFE97F6C7AFA /* Pods_HYPopoverView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CF38CC7C0845EC3AB6DBEC /* Pods_HYPopoverView_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -37,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		051F4D5EC5AC3E12587F0BE7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		051F4D5EC5AC3E12587F0BE7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		054C491A30D13050F01B5835 /* Pods-HYPopoverView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPopoverView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYPopoverView_Example/Pods-HYPopoverView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HYPopoverView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYPopoverView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,11 +64,19 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		627236C431FB5C9D2BD44153 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		627236C431FB5C9D2BD44153 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F90876B8B4835B3C13BC3B3 /* Pods-HYPopoverView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPopoverView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYPopoverView_Tests/Pods-HYPopoverView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC80F3FED2CA10EAACAA349E /* HYPopoverView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HYPopoverView.podspec; path = ../HYPopoverView.podspec; sourceTree = "<group>"; };
+		8EC6707E2239061400B97109 /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		8EC6707F2239061500B97109 /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
+		8EC670802239061500B97109 /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
+		8EC670812239061500B97109 /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+		8EC67084223906DE00B97109 /* 考勤记录@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "考勤记录@2x.png"; sourceTree = "<group>"; };
+		8EC67085223906DE00B97109 /* 请假记录@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "请假记录@3x.png"; sourceTree = "<group>"; };
+		8EC67086223906DE00B97109 /* 考勤记录@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "考勤记录@3x.png"; sourceTree = "<group>"; };
+		8EC67087223906DE00B97109 /* 请假记录@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "请假记录@2x.png"; sourceTree = "<group>"; };
+		AC80F3FED2CA10EAACAA349E /* HYPopoverView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HYPopoverView.podspec; path = ../HYPopoverView.podspec; sourceTree = "<group>"; };
 		C66DBE1D85A6B759F9A493E4 /* Pods-HYPopoverView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPopoverView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYPopoverView_Tests/Pods-HYPopoverView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E1CF38CC7C0845EC3AB6DBEC /* Pods_HYPopoverView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYPopoverView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E928214A2A3E1E627002F4F4 /* Pods_HYPopoverView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYPopoverView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +151,14 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* HYViewController.h */,
 				6003F5A6195388D20070C39A /* HYViewController.m */,
+				8EC6707E2239061400B97109 /* ViewControllerA.h */,
+				8EC670812239061500B97109 /* ViewControllerA.m */,
+				8EC670802239061500B97109 /* ViewControllerB.h */,
+				8EC6707F2239061500B97109 /* ViewControllerB.m */,
+				8EC67084223906DE00B97109 /* 考勤记录@2x.png */,
+				8EC67086223906DE00B97109 /* 考勤记录@3x.png */,
+				8EC67087223906DE00B97109 /* 请假记录@2x.png */,
+				8EC67085223906DE00B97109 /* 请假记录@3x.png */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -247,6 +269,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = oceanfive;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = D94N38GZR8;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -277,8 +302,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				8EC67088223906DE00B97109 /* 考勤记录@2x.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				8EC6708B223906DE00B97109 /* 请假记录@2x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				8EC6708A223906DE00B97109 /* 考勤记录@3x.png in Resources */,
+				8EC67089223906DE00B97109 /* 请假记录@3x.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +385,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* HYAppDelegate.m in Sources */,
+				8EC670822239061500B97109 /* ViewControllerB.m in Sources */,
+				8EC670832239061500B97109 /* ViewControllerA.m in Sources */,
 				6003F5A7195388D20070C39A /* HYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -485,9 +516,11 @@
 			baseConfigurationReference = 054C491A30D13050F01B5835 /* Pods-HYPopoverView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D94N38GZR8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HYPopoverView/HYPopoverView-Prefix.pch";
 				INFOPLIST_FILE = "HYPopoverView/HYPopoverView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,9 +533,11 @@
 			baseConfigurationReference = F3D321AFBE6329AC16A1B097 /* Pods-HYPopoverView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D94N38GZR8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HYPopoverView/HYPopoverView-Prefix.pch";
 				INFOPLIST_FILE = "HYPopoverView/HYPopoverView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

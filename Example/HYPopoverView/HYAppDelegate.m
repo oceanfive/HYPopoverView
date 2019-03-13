@@ -7,12 +7,30 @@
 //
 
 #import "HYAppDelegate.h"
+#import "ViewControllerA.h"
+#import "ViewControllerB.h"
 
 @implementation HYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    
+    ViewControllerA *vcA = [[ViewControllerA alloc] init];
+    UINavigationController *naviVCA = [[UINavigationController alloc] initWithRootViewController:vcA];
+    
+    ViewControllerB *vcB = [[ViewControllerB alloc] init];
+    UINavigationController *naviVCB = [[UINavigationController alloc] initWithRootViewController:vcB];
+    
+    
+    UITabBarController *tabbarVC = [[UITabBarController alloc] init];
+    tabbarVC.viewControllers = @[naviVCB, naviVCA];
+    
+    self.window.rootViewController = tabbarVC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

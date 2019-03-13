@@ -1,0 +1,16 @@
+PODS:
+  - HYPopoverView (0.0.2)
+
+DEPENDENCIES:
+  - HYPopoverView (from `../`)
+
+EXTERNAL SOURCES:
+  HYPopoverView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYPopoverView: 8509453bb83b9c7406c550fb6d376fe48f4a7d9d
+
+PODFILE CHECKSUM: 397cd3914d0db6f26b5ad5de255f93a29144729c
+
+COCOAPODS: 1.5.2
